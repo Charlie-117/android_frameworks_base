@@ -31,6 +31,9 @@
     <!-- Whether device has VOOC charging support -->
     <bool name="config_hasVoocCharger">false</bool>
 
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">false</bool>
+
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">false</bool>
     <integer name="config_smartChargingBatteryLevel">80</integer>
@@ -70,7 +73,7 @@
 
     <!-- Default fod pressed color -->
     <integer name="config_fod_pressed_color">1</integer>
-    
+
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">false</bool>
 

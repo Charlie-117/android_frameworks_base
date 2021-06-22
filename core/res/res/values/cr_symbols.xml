@@ -29,6 +29,9 @@
   <!-- Whether device has VOOC charging support -->
   <java-symbol type="bool" name="config_hasVoocCharger" />
 
+  <!-- Whether device has turbo power charging support -->
+  <java-symbol type="bool" name="config_hasTurboPowerCharger" />
+
   <!-- Gaming mode -->
   <java-symbol type="drawable" name="ic_gaming_notif" />
   <java-symbol type="string" name="notification_channel_gaming" />
@@ -79,7 +82,7 @@
 
   <!-- Default fod pressed icon -->
   <java-symbol type="integer" name="config_fod_pressed_color" />
-  
+
   <!-- NightLight FOD -->
   <java-symbol type="bool" name="disable_fod_night_light"/>
 
